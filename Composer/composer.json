@@ -1,0 +1,23 @@
+{
+	"name":"silence/composer-example",
+	"description":"Ejemplo de uso Composer",
+	"type":"project",
+	"authors":[
+		{
+			"name":"Duilio Palacios",
+			"email": "i@duilio.me",
+			"homepage":"http://duilio.me",
+			"role":"teacher"
+		}
+],
+"require":{
+	"php":">=5.3.0",
+		"dompdf/dompdf": "^0.8.2"
+	
+},
+"autoload":{
+	"psr-4":{
+
+	}
+}
+}
