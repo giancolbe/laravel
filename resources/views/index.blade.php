@@ -8,6 +8,7 @@
 						<a href="index.html"><img src="images/logo.png" alt="" /></a>
 						<p>Movie Theater</p>
 					</div>
+				
 					<div class="search">
 						<form>
 							<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}"/>

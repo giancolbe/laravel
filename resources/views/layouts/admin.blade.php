@@ -25,6 +25,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="index.html">Cinema Admin</a>	
+				<a class="navbar-brand" href="home">HOME</a>	
 			</div>
 			<ul class="nav navbar-top-links navbar-right">
 				<li class="dropdown">

@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +14,8 @@
 */
 
 Route::get('/','FrontController@index');
+
+//Route::get('cinema','FrontController@index');
 Route::get('contacto','FrontController@contacto');
 Route::get('reviews','FrontController@reviews');
 Route::get('admin','FrontController@admin');
@@ -24,3 +27,22 @@ Route::resource('mail','MailController');
 Route::resource('usuario','UsuarioController');
 Route::resource('log','LogController');
 Route::get('prueba','FrontController@prueba');
+
+Route::get('api','PostsController@api');
+
+Route::get('posts','PostsController@index');
+Route::get('posts/{id}','PostsController@show');
+
+Route::get('users','UsersController@index');
+Route::get('users/{id}','UsersController@show');
+
+
+
+
+
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
